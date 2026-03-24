@@ -1,0 +1,33 @@
+{
+    "internal_id": "stone_pickaxe",
+    "title": "Stone Pickaxe",
+    "type": "tool_pickaxe",
+    "placable": false,
+    "rarity": "uncommon",
+    "craft_time": 10,
+    "crafting_recipe": {
+        "required_site_level": 1,
+        "required": {
+            "large_rock": 1,
+            "rope": 2
+        },
+        "result": {
+            "stone_pickaxe": 1
+        }
+    },
+    "properties": {
+        "durability": 20,
+        "weight": 200,
+        "selling_price": 100,
+        "icon": "res://textures/icons/primitive_axe.png",
+        "asset": "res://textures/gltf/primitive_axe.gltf",
+        "smelter_properties": {
+            "smeltable": false,
+            "smelt_time": null,
+            "smelt_result": null,
+            "smelter_item_icon": null,
+            "fuel": false,
+            "burn_time": null
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "internal_id": "primitive_axe",
+    "title": "Primitive Axe",
+    "type": "tool_axe",
+    "placable": false,
+    "rarity": "common",
+    "craft_time": 5,
+    "crafting_recipe": {
+        "required_site_level": 0,
+        "required": {
+            "flint": 1,
+            "fiber": 3
+        },
+        "result": {
+            "primitive_axe": 1
+        }
+    },
+    "properties": {
+        "durability": 20,
+        "weight": 200,
+        "selling_price": 100,
+        "icon": "res://textures/icons/primitive_axe.png",
+        "asset": "res://textures/gltf/primitive_axe.gltf",
+        "smelter_properties": {
+            "smeltable": false,
+            "smelt_time": null,
+            "smelt_result": null,
+            "smelter_item_icon": null,
+            "fuel": false,
+            "burn_time": null
+        }
+    }
+}

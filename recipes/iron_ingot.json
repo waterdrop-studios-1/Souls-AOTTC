@@ -1,0 +1,30 @@
+{
+    "internal_id": "raw_iron",
+    "title": "Raw Ingot",
+    "type": "item",
+    "placable": false,
+    "rarity": "uncommon",
+    "craft_time": null,
+    "crafting_recipe": {
+        "required_site_level": null,
+        "required": null,
+        "result": null
+    },
+    "properties": {
+        "durability": null,
+        "weight": 3,
+        "selling_price": 50,
+        "icon": "res://textures/icons/raw_iron.png",
+        "asset": "res://textures/gltf/raw_iron.gltf",
+        "smeltable": false,
+        "fuel": false,
+        "smelter_properties": {
+            "smeltable": false,
+            "smelt_time": 20,
+            "smelt_result": "iron_ingot",
+            "smelted_item_icon": "res://textures/icons/iron_ingot.png",
+            "fuel": true,
+            "burn_time": null
+        }
+    }
+}

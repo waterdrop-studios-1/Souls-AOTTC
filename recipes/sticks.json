@@ -1,0 +1,32 @@
+{
+    "internal_id": "stick",
+    "title": "Stick",
+    "type": "item",
+    "placable": false,
+    "rarity": "common",
+    "craft_time": 2,
+    "crafting_recipe": {
+        "required_site_level": 0,
+        "required": {
+            "wooden_plank": 1
+        },
+        "result": {
+            "stick": 8
+        }
+    },
+    "properties": {
+        "durability": null,
+        "weight": 20,
+        "selling_price": 80,
+        "icon": "res://textures/icons/stick.png",
+        "asset": "res://textures/gltf/stick.gltf",
+        "smelter_properties": {
+            "smeltable": false,
+            "smelt_time": null,
+            "smelt_result": null,
+            "smelted_item_icon": null,
+            "fuel": true,
+            "burn_time": 10
+        }
+    }
+}

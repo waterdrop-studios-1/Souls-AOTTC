@@ -1,0 +1,33 @@
+{
+    "internal_id": "primitive_hammer",
+    "title": "Primitive Hammer",
+    "type": "tool_hammer",
+    "placable": true,
+    "rarity": "common",
+    "craft_time": 5,
+    "crafting_recipe": {
+        "required_site_level": 0,
+        "required": {
+            "flint": 3,
+            "fiber": 3
+        },
+        "result": {
+            "primitive_hammer": 1
+        }
+    },
+    "properties": {
+        "durability": 30,
+        "weight": 300,
+        "selling_price": 150,
+        "icon": "res://textures/icons/primitive_hammer.png",
+        "asset": "res://textures/gltf/primitive_hammer.gltf",
+        "smelter_properties": {
+            "smeltable": false,
+            "smelt_time": null,
+            "smelt_result": null,
+            "smelted_item_icon": null,
+            "fuel": false,
+            "burn_time": null
+        }
+    }
+}

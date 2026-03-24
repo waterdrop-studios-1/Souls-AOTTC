@@ -1,0 +1,34 @@
+{
+    "internal_id": "rope",
+    "title": "Fiber Rope",
+    "type": "item",
+    "placable": false,
+    "rarity": "common",
+    "craft_time": 1,
+    "crafting_recipe": {
+        "required_site_level": 0,
+        "required": {
+            "fiber": 2
+        },
+        "result": {
+            "rope": 1
+        }
+    },
+    "properties": {
+        "durability": null,
+        "weight": 3,
+        "selling_price": 50,
+        "icon": "res://textures/icons/rope.png",
+        "asset": "res://textures/gltf/rope.gltf",
+        "smeltable": false,
+        "fuel": false,
+        "smelter_properties": {
+            "smeltable": null,
+            "smelt_time": null,
+            "smelt_result": null,
+            "smelted_item_icon": null,
+            "fuel": true,
+            "burn_time": 2
+        }
+    }
+}
